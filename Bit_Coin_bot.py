@@ -1,9 +1,9 @@
 import requests
 import time
 Time_interval=10*60
-Telegram_Bot_ID="2118746002"
-Telegram_Bot_API="5102992984:AAEDlclid7Y9m9pVIAykH3uwuYY0eRzBd8A"
-Url_Api_key='6e6c5dfd-a3c9-4c97-8dda-3d8e393098ce'
+Telegram_Bot_ID="ID_number"
+Telegram_Bot_API="API_NUMBER"
+Url_Api_key='API_KEY'
 def Get_price():
     url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
     parameters = {
